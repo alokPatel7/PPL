@@ -44,6 +44,8 @@ class TimeLine extends React.Component{
           }
       this.timelinePost();
       console.log("props ============",this.props);
+
+      document.title =`${this.state.userName} | Timeline `
     }
 
 

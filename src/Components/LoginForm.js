@@ -17,6 +17,7 @@ class LoginForm extends React.Component{
     }
     componentDidMount(){
       let Id = localStorage.getItem("currentUserId");
+      document.title =`Login | PPL `
       if(Id){
         this.props.history.push('/timeline');
         // console.log('wow its working',Id);
