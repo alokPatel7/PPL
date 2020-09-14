@@ -164,7 +164,7 @@ class SinglePost extends React.Component{
 <li>
                     <div className="cmnt_div1">
                      <form onSubmit={this.submitComment}>
-                     <input type="text" name="comments" placeholder="enter comments" className="cmnt_bx1" onChange={this.handleChange} />
+                     <input type="text" name="comments" placeholder="enter comments" className="cmnt_bx1" onChange={this.handleChange} required/>
                       <input type="submit" className="sub_bttn1" defaultValue="Submit Comment" />
                      </form>
                     </div>
