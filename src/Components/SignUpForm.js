@@ -164,7 +164,6 @@ class SignUpForm extends React.Component{
               <img src="images/img_9.png" alt="" /> </div>
           </div>
         </div>
-        <div className="clear" />
       </div>
 
 		);
